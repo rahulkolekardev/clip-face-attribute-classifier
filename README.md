@@ -1,37 +1,4 @@
 
----
-license: apache-2.0
-language: en
-library_name: transformers
-tags:
-- clip
-- image-classification
-- multi-task-classification
-- fairface
-- vision
-- autoeval-has-no-ethical-license
-model-index:
-- name: clip-face-attribute-classifier
-  results:
-  - task:
-      type: image-classification
-      name: image-classification
-    dataset:
-      name: FairFace
-      type: joojs/fairface
-      split: validation
-    metrics:
-    - type: accuracy
-      value: 0.9638
-      name: Gender Accuracy
-    - type: accuracy
-      value: 0.7322
-      name: Race Accuracy
-    - type: accuracy
-      value: 0.5917
-      name: Age Accuracy
----
-
 # Fine-tuned CLIP Model for Face Attribute Classification
 
 This repository contains the model **`clip-face-attribute-classifier`**, a fine-tuned version of the **[openai/clip-vit-large-patch14](https://huggingface.co/openai/clip-vit-large-patch14)** model. It has been adapted for multi-task classification of perceived age, gender, and race from facial images.
