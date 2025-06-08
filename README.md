@@ -1,5 +1,9 @@
 
 # Fine-tuned CLIP Model for Face Attribute Classification
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model_Page-yellow)](https://huggingface.co/syntheticbot/clip-face-attribute-classifier)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://huggingface.co/syntheticbot/clip-face-attribute-classifier/colab)
+[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://huggingface.co/syntheticbot/clip-face-attribute-classifier/kaggle)
+
 
 This repository contains the model **`clip-face-attribute-classifier`**, a fine-tuned version of the **[openai/clip-vit-large-patch14](https://huggingface.co/openai/clip-vit-large-patch14)** model. It has been adapted for multi-task classification of perceived age, gender, and race from facial images.
 
